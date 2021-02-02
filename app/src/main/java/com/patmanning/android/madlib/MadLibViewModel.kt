@@ -28,7 +28,7 @@ class MadLibViewModel : ViewModel() {
         MutableList<String>(5) { "" }
     ), MadLib(
         "Cooking",
-        "If you wish to cook a %s %s, you will need three ingredients: one cup of %s, one tablespoon of %s, and one gallon of %s.  %s the ingredients together and heat.  Make sure to keep you %s away from the oven!",
+        "If you wish to cook a %s %s, you will need three ingredients: one cup of %s, one tablespoon of %s, and one gallon of %s.  %s the ingredients together and %s.  Make sure to keep your %s away from the oven!",
         listOf(
             PartsOfSpeech.ADJECTIVE,
             PartsOfSpeech.NOUN,
@@ -36,8 +36,9 @@ class MadLibViewModel : ViewModel() {
             PartsOfSpeech.NOUN,
             PartsOfSpeech.NOUN,
             PartsOfSpeech.VERB,
+            PartsOfSpeech.VERB,
             PartsOfSpeech.PART_OF_BODY
         ),
-        MutableList<String>(7) { "" }
+        MutableList<String>(8) { "" }
     ))
 }
